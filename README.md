@@ -1,5 +1,4 @@
-# SCG-Gimnasio
-# Sistema de Control y Gestión para Gimnasio
+# SCG-Gimnasio<br/>Sistema de Control y Gestión para Gimnasio
 <br/>
 <p>
     Un software Web para la gestión de información y seguimiento de clientes que asisten a un centro de musculación o gimnasio.<br/>
