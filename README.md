@@ -1,12 +1,13 @@
-# SCG-Gimnasio: Sistema de Control y Gestión para Gimnasio
+# SCG-Gimnasio
+# Sistema de Control y Gestión para Gimnasio
 <br/>
-<p align="center">
+<p>
     Un software Web para la gestión de información y seguimiento de clientes que asisten a un centro de musculación o gimnasio.<br/>
     Cuenta con un armador de rutinas propio, control de recaudacion y avisos de clientes morosos, etc.<br/>
     Puede conocer mas sobre este desarrollo y sus funciones leyendo la guia de inicio rapido de 20 pags incluida en este GitHub.<br/>
 </p>
 <br/> 
-#Requisitos:
+# Requisitos:
 XAMPP 7.3.4 (Windows)
 <ul>
    <li>Apache 2.4.39</li>
