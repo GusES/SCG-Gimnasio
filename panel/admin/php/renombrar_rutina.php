@@ -1,0 +1,25 @@
+<?php 
+include('../../../db_conn.php');
+$idplanes=isset($_POST['idplanes'])?$_POST['idplanes']:"";
+$nombre=isset($_POST['nombre'])?str_replace("'","''",$_POST['nombre']):"";
+$nombre=mb_strtolower($nombre);
+
+
+
+if(trim($nombre) != ""){
+  $consulta="SELECT * FROM planes WHERE nombre = '$nombre'";
+  $execute = $con->query($consulta);  
+  $rows = $execute->num_rows;
+  $m="(Nombre repetido)";
+  if($rows > 0){
+    $nombre = $nombre.$m;
+  }
+  
+  $sql = "UPDATE planes SET nombre='$nombre' WHERE idplanes = '$idplanes' ;";
+  $result = $con->query($sql);
+  echo "<html><head><meta charset='UTF-8'><title>Tarea Exitosa</title><script type='text/javascript' src='../../../js/jquery-3.4.1.min.js'></script><script type='text/javascript' src='../../../js/bootstrap.min.js'></script><script type='text/javascript' src='../../../js/font-all.min.js'></script><link rel='stylesheet' href='../../../css/bootstrap.min.css'></head><body><div class='alert alert-success text-center'><p><i class='fal fa-check-circle fa-3x'></i></p><h4 class='alert-heading'>¡Tarea realizada con éxito!</h4><hr><p class='mb-0'>Sera redireccionado en segundos.</p></div></body></html>
+  <meta http-equiv='refresh' content='4;URL=../ver_rutinas.php' /> ";	
+} else {
+    echo "<html><head><script>alert('Accion no permitida.');</script><meta http-equiv='refresh' content='0; url=../index.php'></head></html>";
+  }
+?>
