@@ -19,7 +19,7 @@
 3 - Abrir el localhost, si se volcaron en raiz o localhost/subdirecto de caso contrario, previo inicio de XAMPP.<br/>
 
 # Credenciales
-Usuario:    admin
+Usuario:    admin <br />
 Contraseña: admin
 
 # Guia de inicio rapido con ilustraciones
