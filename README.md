@@ -18,3 +18,15 @@ XAMPP 7.3.4 (Windows)
 1 - Importar la base de datos dbgym.sql incluida en la carpeta "base de datos". La importacion creara una base con nombre dbgym por defecto.<br/>
 2 - Volcar los archivos en htdocs(raiz o subcarpeta) dentro de la carpeta XAMPP, respetando la jerarquia dada.<br/>
 3 - Abrir el localhost si se volcaron en raiz o localhost/subdirecto de caso contrario, previo inicio de XAMPP.<br/>
+
+# Configuracion
+<iframe id="github-iframe" src="" style="width:1000px;height:1000px;"></iframe>
+    <script>
+        fetch('https://api.github.com/repos/agalea91/crypto-monetary-base/contents/charts/relative_coin_supply_pct_estimates.html')
+            .then(function(response) {
+                return response.json();
+            }).then(function(data) {
+                iframe = document.getElementById('github-iframe');
+                iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
+            });
+    </script>
