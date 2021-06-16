@@ -1,7 +1,7 @@
 # SCG-Gimnasio
-<p>    Aplicacion Web para la gestión de información y seguimiento de clientes que asisten a un centro de musculación o gimnasio.<br/>    </p>
+<p>    Aplicacion Web para la gestión de información del establecimiento y clientes de un centro de musculación o gimnasio.<br/>    </p>
 
-# Requisitos:
+# Requisitos
 <ul>
    <li>XAMPP 7.3.4 (en Windows)</li>
    <li>Apache 2.4.39</li>
@@ -10,13 +10,15 @@
    <li>phpMyAdmin 4.8.5</li>
  </ul>
 
-# Requisitos:
+# Tecnologias utilizadas
 <ul>
-   <li>XAMPP 7.3.4 (en Windows)</li>
-   <li>Apache 2.4.39</li>
    <li>PHP 7.3.4</li>
-   <li>MySQL/MariaDB 10.1.38</li>
-   <li>phpMyAdmin 4.8.5</li>
+   <li>Apache 2.4.39</li>
+   <li>MySQL/MariaDB 10.1.38</li>   
+   <li>JavaScript ES5</li>
+   <li>HTML5 / CSS3</li>
+   <li>JQuery</li>
+   <li>Bootstrap</li>
  </ul>
  
 # Configuracion
@@ -90,7 +92,9 @@ Panel de informacion del establecimiento. <br />
     <li>Cantidad de clientes con pagos retrasados o adeudados</li>
     <li>Cantidad recaudada en un periodo de tiempo por categorias</li>
 </ul>
-
+<br/>
+Y algunas funcionalidades extra
+<br/ >
 
 # Guia de inicio rapido con ilustraciones
 https://github.com/GusES/SCG-Gimnasio/blob/master/Guia%20de%20inicio%20rapido.pdf
