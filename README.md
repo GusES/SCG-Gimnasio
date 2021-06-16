@@ -58,7 +58,7 @@ Seccion de comprobantes con creacion, edicion, eliminacion de los mismos. <br />
 </ul>
 <hr>
 
-Seccion de entrenamientos con creacion, edicion, eliminacion de las mismos. <br />
+Seccion de entrenamientos con creacion, edicion, eliminacion de los mismos. <br />
 <ul>
    <li>Creacion de ejercicios</li>
    <li>Creacion de rutinas</li>
