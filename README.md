@@ -27,7 +27,7 @@
 # Credenciales
 Usuario:    <b>admin</b> <br />
 Contraseña: <b>admin</b> <br/>
-En esta version la contraseña no esta hasheada en la base de datos, en la version del final se utilizo la funcion Crypt($password, $salt).
+En esta version la contraseña no esta hasheada, en la version del cliente se utilizo la funcion Crypt().
 
 # Que se Realizo?
 Login de Inicio de sesion.  <br />
