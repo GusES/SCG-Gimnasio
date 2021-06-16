@@ -31,6 +31,9 @@ Usuario:    <b>admin</b> <br />
 Contraseña: <b>admin</b> <br/>
 En esta version la contraseña no esta hasheada, en la version del cliente se utilizo la funcion Crypt().
 
+# Guia de inicio rapido con ilustraciones [20 Paginas]
+https://github.com/GusES/SCG-Gimnasio/blob/master/Guia%20de%20inicio%20rapido.pdf
+
 # Que se Realizo?
 Login de Inicio de sesion.  <br />
 <hr>
@@ -95,6 +98,3 @@ Panel de informacion del establecimiento. <br />
 <br/>
 Y algunas funcionalidades extra
 <br/ >
-
-# Guia de inicio rapido con ilustraciones [20 Paginas]
-https://github.com/GusES/SCG-Gimnasio/blob/master/Guia%20de%20inicio%20rapido.pdf
