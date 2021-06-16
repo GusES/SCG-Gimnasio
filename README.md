@@ -67,7 +67,7 @@ Seccion de entrenamientos con creacion, edicion, eliminacion de los mismos. <br 
    <li>Asignacion de rutinas a clientes o grupos</li>   
    <li>Historial de rutinas asignadas a clientes o grupos</li>   
    <li>Generacion de rutinas imprimibles</li>   
-   <li>Generacion de codigo QR para descargar rutinasen PDF</li>   
+   <li>Generacion de codigo QR para descargar rutinas en PDF</li>   
 </ul>
 <hr>
 
@@ -96,5 +96,5 @@ Panel de informacion del establecimiento. <br />
 Y algunas funcionalidades extra
 <br/ >
 
-# Guia de inicio rapido con ilustraciones
+# Guia de inicio rapido con ilustraciones [20 Paginas]
 https://github.com/GusES/SCG-Gimnasio/blob/master/Guia%20de%20inicio%20rapido.pdf
